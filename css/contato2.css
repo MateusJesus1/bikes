@@ -1,0 +1,61 @@
+
+.contato {
+	padding: 40px 0;
+}
+
+.contato_form {
+	padding-right: 60px;
+}
+
+.contato_form label{
+	display: block;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.contato_form input {
+	display: block;
+	width: 100%;
+	outline: none; /* pesquisem essa propriedade para que serve */ 
+}
+
+.contato_form textarea {
+	display: block;
+	outline: none;
+}
+
+.contato_form button {
+}
+
+.orcamento_dados {
+}
+
+.contato_dados h3{
+}
+
+.contato_dados span {
+	display: block;
+}
+
+.contato_dados span:nth-of-type(even) {
+	margin-bottom: 30px;
+}
+
+.contato_dados ul {
+
+}
+
+.contato_dados ul li {
+	display: inline-block;
+
+}
+
+.contato_dados ul li a {
+}
+
+.contato_dados ul li a:hover {
+	border-color: #000;
+}
+
+.contato_mapa {
+	margin-bottom: 60px;
+}

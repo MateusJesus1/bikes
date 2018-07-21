@@ -1,0 +1,144 @@
+body{
+
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+.header{
+	position: fixed;
+	top:0;
+	width: 100%;
+	background: #fec63e;
+	padding:15px 0;
+	z-index:10;
+}
+.header_menu{
+	text-align: right;
+}
+.header_menu ul li{
+	display: inline-block;
+	margin-left: 25px;
+	margin-top:20px;
+}
+.header_menu ul li a{
+	color:#000;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+.header_menu ul li a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+.header_menu ul li a.menu_ativo{
+	color:#fff;
+}
+.introducao-interna{
+	width: 100%;
+	margin-top: 92px;
+	height: 160px;
+	text-align: center;
+	color:#fff;
+	padding-top: 30px;
+}
+.interna_sobre{
+	background: url("../img/bg-sobre.jpg") no-repeat center;
+	background-size:cover;
+}
+.interna_produtos{
+	background: url("../img/bg-produtos.jpg") no-repeat center;
+	background-size:cover;
+}
+
+.introducao-interna h1{
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.introducao-interna h1:after{
+	content:"";
+	display: block;
+	width: 60px;
+	height: 5px;
+	background: #fff;
+	margin:6px auto 10px auto;
+}
+
+p{
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+.quebra{
+	margin-top: 10px;
+	width: 100%;
+	height: 220px;
+	background: url("../img/bg-footer.jpg") no-repeat center;
+	background-size:cover;
+	text-align: center;
+	padding-top:40px;
+}
+
+.quote{
+	max-width: 320px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	color:#fff;
+	border-left:none;
+}
+
+.quote p{
+	font-style: italic;
+}
+.quote p:before, .quote p:after{
+	content:"";
+	display: block;
+	width: 60px;
+	height: 5px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.quote cite{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: .1em;
+}
+.footer{
+	background-color: #000;
+	color:#fff;
+}
+.footer h3{
+	color:#fec63e;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.footer h3:after{
+	content:"";
+	display: block;
+	width: 60px;
+	height: 4px;
+	background:#fec63e;
+	margin-top:6px;
+	margin-bottom:10px;
+	
+}
+
+.footer_redes ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.footer_redes ul li a{
+	border: 3px solid #fec63e;
+	display: block;
+	padding:10px;
+}
+.footer_redes ul li a:hover{
+	border-color:#fff	;
+}
+.copy{
+	background-color: #fec63e;
+}
